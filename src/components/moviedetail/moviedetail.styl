@@ -1,0 +1,62 @@
+.movie-detail
+  position relative
+  height: 100%
+  width: 100%
+  .split-div
+    height 1rem
+    width: 100%
+    background-color: #f5f5f5
+  .movie-header
+    position relative
+    height: 9rem
+    width: 100%
+    display: flex
+    justify-content: space-between
+    padding: 1rem
+    box-sizing: border-box
+    border-bottom: 0.05rem solid #fff
+    .header-background
+      position: absolute
+      height: 100%
+      width: 100%
+      top: 0
+      left 0
+      filter: blur(10px)
+    .movie-info
+      z-index: 1
+      display: flex
+      flex-direction: column
+      span
+        line-height: 1rem
+        font-size: 0.65rem
+        color: #C0C4CC
+      .movie-title
+        color: #fff
+        font-size: 1rem
+        line-height: 1.5rem
+      .movie-subtitle
+        margin-bottom: 0.5rem
+      .rating-text
+        color: #FFD700
+    .movie-img
+      z-index: 1
+      height: 8rem
+      width: 5.33rem
+  .movie-introduction
+    padding: 0.5rem
+    line-height: 1rem
+    letter-spacing: 0.1rem
+    h2
+      font-size: 1rem
+      margin: 0.5rem 0
+  .movie-actors
+    padding: 0.5rem
+    h2
+      font-size: 1rem
+      margin: 0.5rem 0
+    .actor-wrapper
+      .img
+        height: 6rem
+        width: 4.3rem
+  .back-btn
+    margin: 10px

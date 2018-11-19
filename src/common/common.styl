@@ -1,0 +1,60 @@
+html, body, #root
+  height: 100%
+  width: 100%
+  background-color: #fff
+html
+  font-size : 20px
+@media only screen and (min-width: 401px)
+  html
+    font-size: 25px !important
+@media only screen and (min-width: 428px)
+  html
+    font-size: 26.75px !important
+@media only screen and (min-width: 481px)
+  html
+    font-size: 30px !important
+@media only screen and (min-width: 569px)
+  html
+    font-size: 35px !important
+@media only screen and (min-width: 641px)
+  html
+    font-size: 40px !important
+/* 1rem = 10px*/
+.dashboard-content
+  .dashboard-header
+    position: fixed
+    top: 0px
+    height: 2rem
+    width: 100%
+    background-color: #d81e06
+    display: flex
+    justify-content: center
+    z-index: 10
+    span
+      color: #fff
+      font-size: 16px
+      margin: auto 0
+  .dashboard-route
+    box-sizing: border-box
+    margin: 2rem 0 2.5rem 0
+  .tab-bar
+    position: fixed
+    bottom: 0px
+    width: 100%
+    background-color: #fff
+    z-index: 10
+  .nodata
+    position absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    color: #909399
+
+
+/* icon */
+.icon
+  width: 1em; height: 1em
+  vertical-align: -0.15em
+  fill: currentColor
+  overflow: hidden
+  font-size: 1.25em
